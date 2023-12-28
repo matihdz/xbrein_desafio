@@ -13,4 +13,7 @@ Se ha incluido un archivo .env de forma temporal en el proyecto. Este archivo co
 - La configuración de la ruta de la API Pois de AWS, que está basada en una función lambda implementada con NodeJS.
 
 ## Código de la Lambda
-La función lambda mencionada se encuentra alojada y gestionada dentro del ecosistema de AWS. A modo ilustrativo, el código fuente del servicio está en el directorio "lambdas", archivo "getPOIS.js".
+La función lambda mencionada se encuentra alojada y gestionada dentro del ecosistema de AWS. A modo ilustrativo, el código fuente del servicio está en el directorio `/lambdas/getPOIS.js`
+
+## URL API
+Para probar y utilizar la API: `https://1swyo98crc.execute-api.us-east-1.amazonaws.com/pois/{category_name}`
