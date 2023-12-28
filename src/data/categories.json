@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "filter": "BANCOS",
+    "label": "Bancos",
+    "iconUrl": "/mapSvgs/location-dot-solid.svg"
+  },
+  {
+    "id": 2,
+    "filter": "CAFETERIAS Y SALONES DE TE",
+    "label": "Cafeterias y salones de té",
+    "iconUrl": "/mapSvgs/location-dot-solid.svg"
+  },
+  {
+    "id": 3,
+    "filter": "FARMACIAS",
+    "label": "Farmacias",
+    "iconUrl": "/mapSvgs/location-dot-solid.svg"
+  },
+  {
+    "id": 4,
+    "filter": "ALMACENES",
+    "label": "Almacenes",
+    "iconUrl": "/mapSvgs/location-dot-solid.svg"
+  },
+  {
+    "id": 5,
+    "filter": "SUPERMERCADOS",
+    "label": "Supermercados",
+    "iconUrl": "/mapSvgs/location-dot-solid.svg"
+  },
+  {
+    "id": 6,
+    "filter": "RESTAURANTES",
+    "label": "Restaurantes",
+    "iconUrl": "/mapSvgs/location-dot-solid.svg"
+  }
+]
