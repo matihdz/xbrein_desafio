@@ -16,4 +16,4 @@ Se ha incluido un archivo .env de forma temporal en el proyecto. Este archivo co
 La función lambda mencionada se encuentra alojada y gestionada dentro del ecosistema de AWS. A modo ilustrativo, el código fuente del servicio está en el directorio `/lambdas/getPOIS.js`
 
 ## URL API
-Para probar y utilizar la API: `https://1swyo98crc.execute-api.us-east-1.amazonaws.com/pois/{category_name}`
+Para probar y utilizar la API: `GET https://1swyo98crc.execute-api.us-east-1.amazonaws.com/pois/{category_name}`
