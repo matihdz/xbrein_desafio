@@ -1,8 +1,16 @@
-# React + Vite
+# Desafio XBREIN
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Deploy en Vercel
+Este proyecto ha sido desplegado en Vercel, proporcionando una versión en vivo y de fácil acceso: https://xbrein-desafio.vercel.app/
 
-Currently, two official plugins are available:
+## Para configurar y ejecutar el proyecto en tu entorno de desarrollo local, sigue los siguientes pasos:
+1. Instalación de Dependencias: Ejecuta npm i en la terminal. Esto instalará todas las dependencias necesarias para el proyecto.
+2. Ejecución del Proyecto: Una vez instaladas las dependencias, utiliza el comando npm run dev para iniciar el servidor de desarrollo.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Archivo .env
+Se ha incluido un archivo .env de forma temporal en el proyecto. Este archivo contiene configuraciones esenciales como claves de API y otros datos sensibles necesarios para:
+- La correcta visualización y funcionamiento del mapa.
+- La configuración de la ruta de la API Pois de AWS, que está basada en una función lambda implementada con NodeJS.
+
+## Código de la Lambda
+La función lambda mencionada se encuentra alojada y gestionada dentro del ecosistema de AWS. A modo ilustrativo, el código fuente del servicio está en el directorio "lambdas", archivo "getPOIS.js".
